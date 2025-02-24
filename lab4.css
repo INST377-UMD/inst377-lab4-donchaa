@@ -1,0 +1,35 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Flex container for left and right sections */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Left and right sections */
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Box styling */
+.section {
+    background-color: purple;
+    color: white;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 250px;
+}
+
+button {
+    margin-left: 10px;
+    padding: 5px;
+    cursor: pointer;
+}

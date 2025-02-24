@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>INST377 - Lab 4</title>
+    <link rel="stylesheet" href="lab4.css">
+    <script defer src="lab4.js"></script>
+</head>
+<body>
+    <h1 id="heading">INST377 - Lab 4</h1>
+
+    <div class="container">
+        <!-- Left Side (Name & Text Tester) -->
+        <div class="left">
+            <div class="section">
+                <label>Name:</label>
+                <input type="text" id="name" required>
+                <button onclick="alertName()">Alert Me!</button>
+            </div>
+
+            <div class="section">
+                <label>Text Tester:</label>
+                <input type="text" id="textInput">
+                <button onclick="validateText()">Validate Text</button>
+            </div>
+        </div>
+
+        <!-- Right Side (Change Color & Add Text) -->
+        <div class="right">
+            <div class="section">
+                <button onclick="changeColor()">Change Color</button>
+            </div>
+
+            <div class="section">
+                <button onclick="addText()">Add Text</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
